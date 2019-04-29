@@ -94,3 +94,7 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true }, (error, client) =>
         console.log(error);
     });
 });
+
+const deleteTaskAndCount = async (id) => {
+    const 
+}
